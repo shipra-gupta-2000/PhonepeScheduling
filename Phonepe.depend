@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1723626154 source:d:\local-projects\phonepe\classmanager.cpp
+	"ClassManager.h"
+	<iostream>
+	"ClassType.h"
+
+1723626181 d:\local-projects\phonepe\classmanager.h
+	"FitnessClass.h"
+	<unordered_map>
+	<mutex>
+	"ClassType.h"
+
+1723626198 d:\local-projects\phonepe\fitnessclass.h
+	<string>
+	<chrono>
+	<stdexcept>
+	"ClassType.h"
+
+1723626158 source:d:\local-projects\phonepe\fitnessclass.cpp
+	"FitnessClass.h"
+	<iostream>
+	"ClassType.h"
+
+1723719454 source:d:\local-projects\phonepe\bookingmanager.cpp
+	"BookingManager.h"
+	"ClassType.h"
+
+1723626454 d:\local-projects\phonepe\bookingmanager.h
+	"ClassManager.h"
+	"Waitlist.h"
+	"IBookingStrategy.h"
+	"DefaultBookingStrategy.h"
+	<mutex>
+	"ClassType.h"
+
+1723703666 d:\local-projects\phonepe\waitlist.h
+	"User.h"
+	<unordered_map>
+	<queue>
+	<mutex>
+	<iostream>
+	"ClassType.h"
+
+1723719382 d:\local-projects\phonepe\user.h
+	"IAuthenticatable.h"
+	"IBookable.h"
+	<string>
+	<stdexcept>
+	"ClassType.h"
+
+1723720266 d:\local-projects\phonepe\iauthenticatable.h
+	<string>
+
+1723531691 d:\local-projects\phonepe\ibookable.h
+
+1723626218 d:\local-projects\phonepe\ibookingstrategy.h
+	"User.h"
+	"FitnessClass.h"
+	"ClassType.h"
+
+1723626189 d:\local-projects\phonepe\defaultbookingstrategy.h
+	"IBookingStrategy.h"
+	"ClassType.h"
+
+1723719344 source:d:\local-projects\phonepe\user.cpp
+	"User.h"
+	<iostream>
+	"ClassType.h"
+	<string.h>
+
+1723720440 source:d:\local-projects\phonepe\waitlist.cpp
+	"Waitlist.h"
+	"ClassType.h"
+
+1723626756 source:d:\local-projects\phonepe\main.cpp
+	"User.h"
+	"ClassManager.h"
+	"BookingManager.h"
+	"DefaultBookingStrategy.h"
+	"Waitlist.h"
+	<iostream>
+	<chrono>
+	"ClassType.h"
+
+1723703792 d:\local-projects\phonepe\classtype.h
+	<string>
+
+1723703716 source:d:\local-projects\phonepe\classtype.cpp
+	"ClassType.h"
+
