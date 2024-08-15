@@ -54,10 +54,3 @@ Use memory-based object storage; a backend database is not required.
 [execution time limit] 0.5 seconds (cpp)
 
 [memory limit] 1 GB
-
-Saved
-1
-Output
-Terminal
-Free-format output
-Shipra Gupta
